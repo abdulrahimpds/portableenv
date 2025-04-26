@@ -32,7 +32,7 @@ This will create a virtual environment named `myenv` using the embedded Python, 
 You can specify a different Python version using the `-v` or `--version` option:
 
 ```bash
-portableenv myenv -v 3.9.13
+portableenv myenv -v 3.11.5
 ```
 
 This will download the embedded Python version 3.9.13 from python.org and use it to create the virtual environment.
