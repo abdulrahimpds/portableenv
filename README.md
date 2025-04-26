@@ -25,7 +25,7 @@ To create a virtual environment using the embedded Python interpreter, use the f
 python -m portableenv myenv
 ```
 
-This will create a virtual environment named `myenv` using the embedded Python, currently Python 3.10.9.
+This will create a virtual environment named `myenv` using the embedded Python, Python 3.10.9 by default if not specified.
 
 ### Specifying a Different Python Version
 
@@ -35,7 +35,7 @@ You can specify a different Python version using the `-v` or `--version` option:
 python -m portableenv myenv -v 3.11.5
 ```
 
-This will download the embedded Python version 3.9.13 from python.org and use it to create the virtual environment.
+This will download the embedded Python version 3.11.5 from python.org and use it to create the virtual environment.
 
 The tool downloads the embedded Python distribution directly from python.org and configures it automatically. It also installs and updates pip to the latest version in both the embedded Python and the created virtual environment, ensuring you have the most up-to-date package manager without seeing upgrade notices when installing packages.
 
