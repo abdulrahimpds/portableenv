@@ -22,7 +22,7 @@ pip install portableenv
 To create a virtual environment using the embedded Python interpreter, use the following command:
 
 ```bash
-portableenv myenv
+python -m portableenv myenv
 ```
 
 This will create a virtual environment named `myenv` using the embedded Python, currently Python 3.10.9.
@@ -32,7 +32,7 @@ This will create a virtual environment named `myenv` using the embedded Python, 
 You can specify a different Python version using the `-v` or `--version` option:
 
 ```bash
-portableenv myenv -v 3.11.5
+python -m portableenv myenv -v 3.11.5
 ```
 
 This will download the embedded Python version 3.9.13 from python.org and use it to create the virtual environment.
