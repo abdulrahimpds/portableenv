@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='portableenv',
-    version='1.1.1',
+    version='2.0.0',
     author='AbdulRahim Khan',
     author_email='abdulrahimpds@gmail.com',
     description='A tool to create virtual environments using an embedded Python interpreter.',
