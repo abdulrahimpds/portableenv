@@ -41,7 +41,7 @@ The tool downloads the embedded Python distribution directly from python.org and
 
 ## Requirements
 
-- Python 3.8 or higher
+- Python 3.7 or higher
 - `virtualenv` library (automatically installed with this package)
 - Internet connection for the initial download of the embedded Python interpreter
 
