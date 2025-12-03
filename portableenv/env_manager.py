@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 import sys
 import zipfile
@@ -83,7 +84,7 @@ def fix_embedded_python(extract_dir, version):
     if pth_file.exists():
         print(f"Fixing {pth_file.name} to enable site-packages...")
         # read the current content
-        with open(pth_file, 'r') as f:
+        with open(pth_file, 'r', encoding='utf-8') as f:
             lines = f.readlines()
 
         # create a new content list
@@ -121,7 +122,7 @@ def fix_embedded_python(extract_dir, version):
             new_lines.append('import site')
 
         # write the modified content back
-        with open(pth_file, 'w') as f:
+        with open(pth_file, 'w', encoding='utf-8') as f:
             f.write('\n'.join(new_lines))
 
     # 2. Create Lib/site-packages directory if it doesn't exist

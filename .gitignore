@@ -1,2 +1,5 @@
 *.bat
 setup.py
+build
+dist
+*egg-info
